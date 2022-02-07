@@ -1,0 +1,30 @@
+// Arda Mavi - ardamavi.com  
+  
+public class Main {  
+    public static void main(String[] args){  
+          
+        long sayi = 4;  
+        // Biz bu örnekte 4'ün faktöriyelini bulacağız.  
+    // Long veri tipinde, 4 değerine eşit "sayi" isimli bir değişken oluşturuyoruz.  
+  
+        long sonuc = 1;  
+        // Long veri tipinde, 1 değerine eşit "sonuc" isimli bir değişken oluşturuyoruz.  
+  
+        while (sayi>0){  
+        // Sayi değişkeni 0'dan büyük olduğu sürece döngü tekrarlanacak.  
+  
+            sonuc = sonuc*sayi;  
+        // Sonuc değişkeni ile sayi değişkeni çarpılıp sonuc değişkenine atıyoruz.  
+  
+            sayi--;  
+        // Sayi değişkeninin değeri bir azaltılıyor.  
+  
+        }  
+  
+        System.out.println(sonuc);  
+        // Sonuc değişkeni konsola yazdırılıyor.  
+  
+        // Konsol Çıktısı : 24  
+          
+    }   
+}  

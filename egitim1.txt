@@ -1,0 +1,4 @@
+selamlar
+git clone
+git commit
+git push denemeleri
